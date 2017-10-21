@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="600" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxobserve.Controller">
+    <children>
+        <ListView fx:id="list" prefHeight="500" prefWidth="320" />
+        <HBox>
+            <Button fx:id="update" alignment="CENTER" onAction="#handleUpdateAction" mnemonicParsing="false" prefWidth="150.0" text="Update Item" textAlignment="CENTER" />
+            <Button fx:id="add" alignment="CENTER" onAction="#handleAddAction" mnemonicParsing="false" prefWidth="150.0" text="Add Item" textAlignment="CENTER" />
+        </HBox>
+    </children>
+</VBox>
